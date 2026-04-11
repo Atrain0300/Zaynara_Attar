@@ -172,7 +172,7 @@ p {
   border-bottom: 1px solid var(--stroke);
   background:
     linear-gradient(115deg, rgba(9, 8, 6, 0.91), rgba(10, 9, 8, 0.55)),
-    url("../assets/images/hero-scene.svg") center / cover no-repeat;
+    url("../hero-scene.svg") center / cover no-repeat;
 }
 
 .hero-content {
