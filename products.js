@@ -5,7 +5,7 @@ window.ZaynaraProducts = [
     type: "woody",
     price: 89,
     description: "A majestic oud blend layered with saffron and warm sandalwood for a commanding, refined aura.",
-    image: "assets/images/oud-royale.svg",
+    image: "oud-royale.svg",
     notes: {
       top: ["Saffron", "Smoked Cardamom"],
       middle: ["Cambodi Oud", "Rose Petals"],
@@ -20,7 +20,7 @@ window.ZaynaraProducts = [
     type: "floral",
     price: 79,
     description: "Velvety Damask rose wrapped in soft musk and golden amber for graceful everyday luxury.",
-    image: "assets/images/rose-elixir.svg",
+    image: "rose-elixir.svg",
     notes: {
       top: ["Damask Rose", "Pink Pepper"],
       middle: ["White Jasmine", "Violet Leaf"],
@@ -35,7 +35,7 @@ window.ZaynaraProducts = [
     type: "oriental",
     price: 84,
     description: "Deep amber, labdanum, and resinous warmth inspired by candlelit desert evenings.",
-    image: "assets/images/amber-nights.svg",
+    image: "amber-nights.svg",
     notes: {
       top: ["Cinnamon Bark", "Saffron"],
       middle: ["Labdanum", "Benzoin"],
@@ -50,7 +50,7 @@ window.ZaynaraProducts = [
     type: "musky",
     price: 76,
     description: "A clean yet sensual musk with powdery iris and creamy tonka for understated elegance.",
-    image: "assets/images/musk-velvet.svg",
+    image: "musk-velvet.svg",
     notes: {
       top: ["Aldehydes", "Soft Bergamot"],
       middle: ["Iris", "Heliotrope"],
@@ -65,7 +65,7 @@ window.ZaynaraProducts = [
     type: "woody",
     price: 92,
     description: "Saffron threads melt into smoky cedar and agarwood, leaving a rich, distinguished trail.",
-    image: "assets/images/saffron-dusk.svg",
+    image: "saffron-dusk.svg",
     notes: {
       top: ["Saffron", "Elemi"],
       middle: ["Cedarwood", "Patchouli"],
@@ -80,7 +80,7 @@ window.ZaynaraProducts = [
     type: "floral",
     price: 81,
     description: "Night-blooming jasmine with soft spice and dark amber for a luminous, elegant signature.",
-    image: "assets/images/jasmine-noir.svg",
+    image: "jasmine-noir.svg",
     notes: {
       top: ["Star Anise", "Neroli"],
       middle: ["Sambac Jasmine", "Orange Blossom"],
