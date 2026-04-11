@@ -5,7 +5,7 @@ window.ZaynaraProducts = [
     type: "woody",
     price: 89,
     description: "A majestic oud blend layered with saffron and warm sandalwood for a commanding, refined aura.",
-    image: "../oud-royale.svg",
+    image: "oud-royale.svg",
     notes: {
       top: ["Saffron", "Smoked Cardamom"],
       middle: ["Cambodi Oud", "Rose Petals"],
