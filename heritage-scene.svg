@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 900" role="img" aria-label="Attar ingredients composition with roses and oud wood">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#130f0c"/>
+      <stop offset="50%" stop-color="#261810"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </linearGradient>
+    <radialGradient id="light2" cx="25%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#d7b56f" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#d7b56f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1300" height="900" fill="url(#bg2)"/>
+  <rect width="1300" height="900" fill="url(#light2)"/>
+  <ellipse cx="640" cy="760" rx="440" ry="72" fill="#000" opacity="0.5"/>
+  <rect x="515" y="240" width="240" height="430" rx="36" fill="#231a14" stroke="#d7b56f" stroke-opacity="0.65" stroke-width="5"/>
+  <rect x="588" y="180" width="96" height="66" rx="16" fill="#2b1e16" stroke="#d7b56f" stroke-width="4"/>
+  <rect x="615" y="150" width="42" height="28" rx="8" fill="#d7b56f"/>
+  <circle cx="280" cy="620" r="88" fill="#8e3a4f" opacity="0.8"/>
+  <circle cx="350" cy="560" r="76" fill="#7f2e42" opacity="0.78"/>
+  <circle cx="1030" cy="610" r="82" fill="#8d3649" opacity="0.78"/>
+  <circle cx="960" cy="550" r="68" fill="#7a2b3e" opacity="0.75"/>
+  <rect x="180" y="670" width="280" height="62" rx="16" fill="#5d3d27"/>
+  <rect x="850" y="678" width="260" height="58" rx="16" fill="#67422a"/>
+  <text x="635" y="460" text-anchor="middle" fill="#e8d4aa" font-size="31" font-family="Georgia, serif" letter-spacing="4">ZAYNARA</text>
+  <text x="635" y="504" text-anchor="middle" fill="#cfb47f" font-size="22" font-family="Georgia, serif" letter-spacing="2.5">ESSENCE</text>
+</svg>

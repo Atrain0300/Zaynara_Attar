@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Luxury attar still-life scene">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0a08"/>
+      <stop offset="55%" stop-color="#1b130f"/>
+      <stop offset="100%" stop-color="#090705"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="#d8b879" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#d8b879" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2e231b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#120d09" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <ellipse cx="805" cy="875" rx="500" ry="85" fill="#000" opacity="0.55"/>
+  <rect x="655" y="260" width="290" height="520" rx="42" fill="url(#glass)" stroke="#d6b577" stroke-opacity="0.65" stroke-width="6"/>
+  <rect x="745" y="190" width="110" height="90" rx="18" fill="#1d140f" stroke="#d6b577" stroke-width="5"/>
+  <rect x="778" y="150" width="44" height="42" rx="9" fill="#d6b577"/>
+  <rect x="250" y="700" width="330" height="70" rx="16" fill="#261a13"/>
+  <rect x="1020" y="710" width="290" height="65" rx="16" fill="#241911"/>
+  <ellipse cx="360" cy="695" rx="80" ry="26" fill="#5e3d26"/>
+  <ellipse cx="445" cy="695" rx="66" ry="23" fill="#6a442a"/>
+  <ellipse cx="1145" cy="702" rx="62" ry="24" fill="#6d3f2c"/>
+  <ellipse cx="1225" cy="704" rx="58" ry="22" fill="#593424"/>
+  <circle cx="1135" cy="590" r="66" fill="#7f3042" opacity="0.75"/>
+  <circle cx="1195" cy="558" r="56" fill="#8d3650" opacity="0.68"/>
+  <circle cx="1240" cy="618" r="50" fill="#762b40" opacity="0.72"/>
+  <text x="800" y="515" text-anchor="middle" fill="#e8d2a3" font-size="34" font-family="Georgia, serif" letter-spacing="5">ZAYNARA</text>
+  <text x="800" y="560" text-anchor="middle" fill="#ceb27a" font-size="24" font-family="Georgia, serif" letter-spacing="3">LUXURY ATTAR</text>
+</svg>

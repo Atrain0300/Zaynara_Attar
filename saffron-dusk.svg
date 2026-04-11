@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Saffron Dusk perfume bottle placeholder">
+  <defs>
+    <linearGradient id="bg-saffron" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#130d07"/>
+      <stop offset="55%" stop-color="#2c1b0f"/>
+      <stop offset="100%" stop-color="#080603"/>
+    </linearGradient>
+    <linearGradient id="glass-saffron" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a2914"/>
+      <stop offset="100%" stop-color="#21120b"/>
+    </linearGradient>
+    <radialGradient id="glow-saffron" cx="72%" cy="24%" r="42%">
+      <stop offset="0%" stop-color="#f0a751" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#f0a751" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg-saffron)"/>
+  <rect width="900" height="1200" fill="url(#glow-saffron)"/>
+  <ellipse cx="450" cy="995" rx="238" ry="64" fill="#000" opacity="0.52"/>
+  <rect x="302" y="260" width="296" height="560" rx="54" fill="url(#glass-saffron)" stroke="#eca85b" stroke-opacity="0.74" stroke-width="5"/>
+  <rect x="378" y="188" width="144" height="90" rx="22" fill="#301c11" stroke="#eca85b" stroke-width="4"/>
+  <rect x="410" y="146" width="80" height="40" rx="11" fill="#eca85b"/>
+  <text x="450" y="560" text-anchor="middle" fill="#f2ddb4" font-size="33" font-family="Georgia, serif" letter-spacing="4">ZAYNARA</text>
+  <text x="450" y="614" text-anchor="middle" fill="#eca85b" font-size="25" font-family="Georgia, serif" letter-spacing="2.5">SAFFRON DUSK</text>
+  <text x="450" y="652" text-anchor="middle" fill="#cf9151" font-size="19" font-family="Georgia, serif" letter-spacing="2">Premium Attar</text>
+</svg>

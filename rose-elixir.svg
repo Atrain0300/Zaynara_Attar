@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Rose Elixir perfume bottle placeholder">
+  <defs>
+    <linearGradient id="bg-rose" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12090b"/>
+      <stop offset="55%" stop-color="#2a1219"/>
+      <stop offset="100%" stop-color="#090506"/>
+    </linearGradient>
+    <linearGradient id="glass-rose" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3f2029"/>
+      <stop offset="100%" stop-color="#1f1015"/>
+    </linearGradient>
+    <radialGradient id="glow-rose" cx="70%" cy="24%" r="42%">
+      <stop offset="0%" stop-color="#e4b3be" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#e4b3be" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg-rose)"/>
+  <rect width="900" height="1200" fill="url(#glow-rose)"/>
+  <ellipse cx="450" cy="995" rx="238" ry="64" fill="#000" opacity="0.52"/>
+  <rect x="302" y="260" width="296" height="560" rx="54" fill="url(#glass-rose)" stroke="#e5c2aa" stroke-opacity="0.72" stroke-width="5"/>
+  <rect x="378" y="188" width="144" height="90" rx="22" fill="#2c1319" stroke="#e5c2aa" stroke-width="4"/>
+  <rect x="410" y="146" width="80" height="40" rx="11" fill="#e5c2aa"/>
+  <text x="450" y="560" text-anchor="middle" fill="#f1d7c1" font-size="33" font-family="Georgia, serif" letter-spacing="4">ZAYNARA</text>
+  <text x="450" y="614" text-anchor="middle" fill="#e8bfaf" font-size="25" font-family="Georgia, serif" letter-spacing="2.5">ROSE ELIXIR</text>
+  <text x="450" y="652" text-anchor="middle" fill="#cda494" font-size="19" font-family="Georgia, serif" letter-spacing="2">Premium Attar</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-label="Amber Nights perfume bottle placeholder">
+  <defs>
+    <linearGradient id="bg-amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#130e09"/>
+      <stop offset="55%" stop-color="#2b1b11"/>
+      <stop offset="100%" stop-color="#090603"/>
+    </linearGradient>
+    <linearGradient id="glass-amber" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4a2d1a"/>
+      <stop offset="100%" stop-color="#2a170f"/>
+    </linearGradient>
+    <radialGradient id="glow-amber" cx="72%" cy="24%" r="42%">
+      <stop offset="0%" stop-color="#ebb36f" stop-opacity="0.44"/>
+      <stop offset="100%" stop-color="#ebb36f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1200" fill="url(#bg-amber)"/>
+  <rect width="900" height="1200" fill="url(#glow-amber)"/>
+  <ellipse cx="450" cy="995" rx="238" ry="64" fill="#000" opacity="0.52"/>
+  <rect x="302" y="260" width="296" height="560" rx="54" fill="url(#glass-amber)" stroke="#e4b06e" stroke-opacity="0.72" stroke-width="5"/>
+  <rect x="378" y="188" width="144" height="90" rx="22" fill="#311f13" stroke="#e4b06e" stroke-width="4"/>
+  <rect x="410" y="146" width="80" height="40" rx="11" fill="#e4b06e"/>
+  <text x="450" y="560" text-anchor="middle" fill="#efd8b2" font-size="33" font-family="Georgia, serif" letter-spacing="4">ZAYNARA</text>
+  <text x="450" y="614" text-anchor="middle" fill="#e4b06e" font-size="25" font-family="Georgia, serif" letter-spacing="2.5">AMBER NIGHTS</text>
+  <text x="450" y="652" text-anchor="middle" fill="#c89a66" font-size="19" font-family="Georgia, serif" letter-spacing="2">Premium Attar</text>
+</svg>
