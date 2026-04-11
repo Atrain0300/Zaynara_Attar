@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | Zaynara Attar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="shop">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">Zaynara <span>Attar</span></a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" data-page-link="home">Home</a>
+        <a href="shop.html" data-page-link="shop">Shop</a>
+        <a href="about.html" data-page-link="about">About</a>
+        <a href="contact.html" data-page-link="contact">Contact</a>
+        <a href="cart.html" data-page-link="cart">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <div class="container">
+        <p class="eyebrow">The Collection</p>
+        <h1>Discover Your Signature Scent</h1>
+        <p>Explore artisanal blends crafted from pure oils and rare natural ingredients.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="filter-bar" id="shopFilters">
+          <button class="filter-chip active" data-filter="all" type="button">All Fragrances</button>
+          <button class="filter-chip" data-filter="woody" type="button">Woody</button>
+          <button class="filter-chip" data-filter="floral" type="button">Floral</button>
+          <button class="filter-chip" data-filter="musky" type="button">Musky</button>
+          <button class="filter-chip" data-filter="oriental" type="button">Oriental</button>
+        </div>
+        <div id="shopGrid" class="product-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand footer-brand">Zaynara <span>Attar</span></a>
+        <p class="footer-copy">Luxury natural attars inspired by tradition and refined for modern elegance.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <a href="mailto:hello@zaynaraattar.com">hello@zaynaraattar.com</a>
+        <a href="contact.html">Customer Care</a>
+      </div>
+      <div>
+        <h3>Social</h3>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Pinterest">Pinterest</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Zaynara Attar. All rights reserved.</p>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>

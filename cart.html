@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart & Checkout | Zaynara Attar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="cart">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">Zaynara <span>Attar</span></a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" data-page-link="home">Home</a>
+        <a href="shop.html" data-page-link="shop">Shop</a>
+        <a href="about.html" data-page-link="about">About</a>
+        <a href="contact.html" data-page-link="contact">Contact</a>
+        <a href="cart.html" data-page-link="cart">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero compact reveal">
+      <div class="container">
+        <p class="eyebrow">Final Step</p>
+        <h1>Your Cart & Checkout</h1>
+        <p>Complete your order and let your new signature fragrance arrive at your door.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container cart-layout">
+        <div class="panel">
+          <h2 class="panel-title">Your Selection</h2>
+          <div id="cartEmptyState" class="empty-state" hidden>
+            <p>Your cart is currently empty.</p>
+            <a href="shop.html" class="btn btn-secondary">Browse Attars</a>
+          </div>
+          <div id="cartItems" class="cart-items"></div>
+        </div>
+
+        <aside class="panel checkout-panel">
+          <h2 class="panel-title">Checkout</h2>
+          <div class="summary">
+            <div class="summary-line"><span>Subtotal</span><strong id="subtotalAmount">$0</strong></div>
+            <div class="summary-line"><span>Shipping</span><strong id="shippingAmount">$0</strong></div>
+            <div class="summary-line total"><span>Total</span><strong id="totalAmount">$0</strong></div>
+          </div>
+
+          <form id="checkoutForm" class="checkout-form">
+            <label for="checkoutName">Name</label>
+            <input id="checkoutName" name="checkoutName" type="text" required>
+
+            <label for="checkoutEmail">Email</label>
+            <input id="checkoutEmail" name="checkoutEmail" type="email" required>
+
+            <label for="checkoutPhone">Phone</label>
+            <input id="checkoutPhone" name="checkoutPhone" type="tel" required>
+
+            <label for="checkoutAddress">Address</label>
+            <textarea id="checkoutAddress" name="checkoutAddress" rows="3" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Place Order</button>
+          </form>
+          <p class="form-feedback" id="checkoutFeedback" aria-live="polite"></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand footer-brand">Zaynara <span>Attar</span></a>
+        <p class="footer-copy">Luxury natural attars inspired by tradition and refined for modern elegance.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <a href="mailto:hello@zaynaraattar.com">hello@zaynaraattar.com</a>
+        <a href="contact.html">Customer Care</a>
+      </div>
+      <div>
+        <h3>Social</h3>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Pinterest">Pinterest</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Zaynara Attar. All rights reserved.</p>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Zaynara Attar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="contact">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">Zaynara <span>Attar</span></a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html" data-page-link="home">Home</a>
+        <a href="shop.html" data-page-link="shop">Shop</a>
+        <a href="about.html" data-page-link="about">About</a>
+        <a href="contact.html" data-page-link="contact">Contact</a>
+        <a href="cart.html" data-page-link="cart">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero reveal">
+      <div class="container">
+        <p class="eyebrow">Get in Touch</p>
+        <h1>We'd love to guide your scent journey</h1>
+        <p>Reach out for product recommendations, gifting support, or partnership inquiries.</p>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container contact-layout">
+        <form id="contactForm" class="panel contact-form">
+          <h2 class="panel-title">Send Us a Message</h2>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+          <p class="form-feedback" id="contactFeedback" aria-live="polite"></p>
+        </form>
+
+        <aside class="panel contact-info">
+          <h2 class="panel-title">Contact Details</h2>
+          <p>Email: <a href="mailto:hello@zaynaraattar.com">hello@zaynaraattar.com</a></p>
+          <p>Instagram: <a href="#">@zaynaraattar</a></p>
+          <p>Facebook: <a href="#">Zaynara Attar</a></p>
+          <p>Pinterest: <a href="#">Zaynara Luxe</a></p>
+          <p class="contact-note">Response time: within 24 hours on business days.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="brand footer-brand">Zaynara <span>Attar</span></a>
+        <p class="footer-copy">Luxury natural attars inspired by tradition and refined for modern elegance.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">Our Story</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <a href="mailto:hello@zaynaraattar.com">hello@zaynaraattar.com</a>
+        <a href="contact.html">Customer Care</a>
+      </div>
+      <div>
+        <h3>Social</h3>
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="Pinterest">Pinterest</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Zaynara Attar. All rights reserved.</p>
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
